@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,500&family=Mooli&family=Raleway:wght@100;300;500&display=swap');
+
+body{
+    font-family: raleway, sans-serif;
+    background: linear-gradient(to top, #620202, #e61f26);
+    margin: 0;
+    padding: 0;
+    display:flex; /*permite a UI seja responsiva, flexível */
+    flex-direction: column; /* um elemento abaixo do outro*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*altura mínima*/
+}
+
+form{
+    font-family: Mooli, sans-serif;
+    background-color: rgba(213, 210, 210, 0.8);
+    padding: 16px;
+    border-radius: 4px;
+    width: 50%;/*largura*/
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5); /*Cria sombra*/
+}
+
+h1{
+    color:white
+}
+
+input, select{
+width: 90%;
+padding: 8px;
+border: 1px solid#ccc;
+border-radius: 8px;
+margin-bottom: 16px;
+margin-top: 4px;
+box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
