@@ -1,8 +1,8 @@
 function calcularTemp(event){
     const tempInic = document.getElementById('temperaturaInicial').value
     const tempFinal = document.getElementById('temperaturaFinal').value
-    let resultado
-
+    const resultado =  document.getElementById('resultado').value
+    const valor = document.getElementById('valor').value
 
     let temp
     if (tempInic === 'Celsius' && tempFinal === "Fahrenheit" ){
@@ -18,8 +18,9 @@ function calcularTemp(event){
     } else (tempInic === 'Kelvin' && tempFinal === 'Fahrenheit')
         temp= tempInic * 9 / 5 - 459.67
 
-}
+
 
     document.getElementById('resultado').innerHTML =
-    ` A temperatura inicial é de, ${temp} e o resultado é ${resultado}`
+    ` A temperatura inicial é de, ${tempInic} e o resultado é ${resultado}`;
 
+}
