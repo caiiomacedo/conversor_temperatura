@@ -3,14 +3,14 @@
 
 body{
     font-family: raleway, sans-serif;
-    background: linear-gradient(to top, #620202, #e61f26);
-    margin: 0;
-    padding: 0;
-    display:flex; /*permite a UI seja responsiva, flexível */
-    flex-direction: column; /* um elemento abaixo do outro*/
+    background: linear-gradient(to top, #620202, #f9f10e);
+    margin: 4px;
+    padding: 8px;
+    display:flex; 
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /*altura mínima*/
+    min-height: 100vh; 
 }
 
 form{
@@ -18,12 +18,22 @@ form{
     background-color: rgba(213, 210, 210, 0.8);
     padding: 16px;
     border-radius: 4px;
-    width: 50%;/*largura*/
-    box-shadow: 0 4px 8px rgb(0,0,0,0.5); /*Cria sombra*/
+    width: 50%;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5); 
 }
 
 h1{
-    color:white
+    color:rgb(9, 8, 8)
+    
+}
+
+h2{
+    color: #f9f10e;
+}
+
+h3{
+     color: #ce0064;
+;
 }
 
 input, select{
@@ -39,3 +49,28 @@ box-sizing: border-box;
 label{
     display: block;
 }
+
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #941281;
+    padding: 20px ;
+    display: block
+    
+  }
+  nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  checkbox{
+        margin:0 12px 0 0;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+      }
+ 
